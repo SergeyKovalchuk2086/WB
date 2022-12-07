@@ -1,3 +1,24 @@
+let elem = document.querySelector(".main___sidebar__accordion_top_mainlbl")
+let elemSecond = document.querySelector(".main___sidebar__accordion_top_mainlbl")
+let elemLast = document.querySelector(".main___sidebar__accordion_top_mainlbl")
+
+elem.addEventListener("click", toggle)
+elemSecond.addEventListener("click", functionSecond)
+elemLast.addEventListener("click", functionLast)
+
+function toggle() {
+  //do something
+}
+
+function functionSecond() {
+  //do something
+}
+
+function functionLast() {
+  //do something
+}
+
+
 let elem = document
   .querySelector(".main___sidebar__accordion_top_mainlbl")
   .addEventListener("click", (ev) => {

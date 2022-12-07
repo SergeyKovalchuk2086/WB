@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__navbar">
+          <div class="header__navbar_burger">
+            <img src="assets/burger.svg" alt="" />
+          </div>
+          <div class="brg">
+            <img src="assets/brg.svg" alt="" />
+          </div>
+          <p class="header__navbar_text">ТОВАРЫ И ТОЧКА</p>
+        </div>
+        <div class="header___button">
+          <div class="header___button__menu">
+            <input
+              type="search"
+              class="header___button__menu_inp"
+              value="Я ищу..."
+            />
+            <img src="assets/Search.svg" alt="" />
+          </div>
+        </div>
+        <div class="header__account">
+          <div class="header__account_profile">
+            <img src="assets/Exclude.svg" alt="" width="19px" height="20px" />
+            <p>Профиль</p>
+          </div>
+          <div class="header__account_basket">
+            <img
+              src="assets/icon-28.svg"
+              alt=""
+              width="26.29px"
+              height="22.86px"
+            />
+            <p>Корзина</p>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="main___top">
+      <div class="main___top__block"></div>
+    </div>
+    <div class="containerMain">
+      <main class="main">
+        <div class="main___sidebar">
+          <div class="main___sidebar__basket">Корзина</div>
+          <div class="main___sidebar__accordion">
+            <div class="main___sidebar__accordion_top">
+              <label class="main___sidebar__accordion_top_lbl">
+                <input
+                  type="checkbox"
+                  class="main___sidebar__accordion_top_lbl_checkbox"
+                />
+                <span class="main___sidebar__accordion_top_lbl_fake"></span>
+                <span class="main___sidebar__accordion_top_lbl_choose"
+                  >Выбрать все</span
+                >
+              </label>
+              <label class="main___sidebar__accordion_top_mainlbl">
+                <input
+                  type="checkbox"
+                  id="main"
+                  class="main___sidebar__accordion_top_mainlbl_inp"
+                />
+              </label>
+              <img
+                src="assets/galka.svg"
+                alt=""
+                class="main___sidebar__accordion_top_img"
+                id="sss"
+              />
+            </div>
+            <div class="main___sidebar__accordion_line"></div>
+            <div class="main___sidebar__accordion_list">
+              <div class="main___sidebar__accordion_list_item">
+                <div class="accordion_list_item">
+                  <label class="main___sidebar__accordion_list_item_lbl">
+                    <input
+                      type="checkbox"
+                      class="main___sidebar__accordion_list_item_lbl_checkbox"
+                    />
+                    <span class="main___sidebar__accordion_top_lbl_fake"></span>
+                  </label>
+                  <img
+                    src="assets/couple.svg"
+                    alt=""
+                    class="main___sidebar__accordion_list_item_img"
+                  />
+                  <div class="main___sidebar__accordion_list_item_descr">
+                    <div class="main___sidebar__accordion_list_item_descr_name">
+                      Футболка UZcotton мужская
+                    </div>
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_color"
+                    >
+                      <p
+                        class="main___sidebar__accordion_list_item_descr_color_1"
+                      >
+                        Цвет белый
+                      </p>
+                      <div
+                        class="main___sidebar__accordion_list_item_descr_color_2"
+                      >
+                        <p class="accordion___list__item_size">Размер</p>
+                        56
+                      </div>
+                    </div>
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_location"
+                    >
+                      Коледино WB
+                    </div>
+                    <div class="main___sidebar__accordion_list_item_descr_comp">
+                      <p
+                        class="main___sidebar__accordion_list_item_descr_comp_1"
+                      >
+                        ООО Вайлдберриз
+                      </p>
+                      <img
+                        src="assets/info.svg"
+                        alt=""
+                        class="main___sidebar__accordion_list_item_descr_comp_2"
+                      />
+                      <img
+                        src="assets/i.svg"
+                        class="main___sidebar__accordion_list_item_descr_comp_2_1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="main___sidebar__accordion_list_item_amount">
+                  <div
+                    class="main___sidebar__accordion_list_item_amount_count cnt1"
+                    data-counter
+                  >
+                    <img
+                      src="assets/−.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_minus counter__button_minus"
+                    />
+                    <div
+                      class="main___sidebar__accordion_list_item_amount_count_number"
+                    >
+                      <input
+                        id="counter1"
+                        type="text"
+                        disabled
+                        class="main___sidebar__accordion_list_item_amount_count_number_1 titi"
+                        value="1"
+                      />
+                    </div>
+                    <img
+                      src="assets/+.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_plus counter__button_plus"
+                    />
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_amount_resid">
+                    Осталось 2шт.
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_amount_elem">
+                    <svg
+                      width="20"
+                      height="16"
+                      viewBox="0 0 20 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___basket"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.03396 2.05857C2.26589 2.75224 1.76684 3.83284 1.99493 5.42928C2.22332 7.02783 3.26494 8.68522 4.80436 10.3478C6.25865 11.9184 8.10962 13.4437 9.99996 14.874C11.8903 13.4437 13.7413 11.9184 15.1956 10.3478C16.735 8.68521 17.7766 7.02783 18.005 5.4293C18.233 3.83285 17.734 2.75224 16.9659 2.05856C16.1766 1.34572 15.055 1 14 1C12.1319 1 11.0923 2.08479 10.5177 2.68443C10.4581 2.7466 10.4035 2.80356 10.3535 2.85355C10.1582 3.04882 9.84166 3.04882 9.6464 2.85355C9.59641 2.80356 9.54182 2.7466 9.48224 2.68443C8.90757 2.08479 7.86797 1 5.99995 1C4.94495 1 3.82325 1.34573 3.03396 2.05857ZM2.36371 1.31643C3.37369 0.404274 4.75202 0 5.99995 0C8.07123 0 9.34539 1.11257 9.99996 1.77862C10.6545 1.11257 11.9287 0 14 0C15.2479 0 16.6262 0.404275 17.6362 1.31644C18.6674 2.24776 19.2668 3.66715 18.9949 5.5707C18.7233 7.47217 17.5149 9.31479 15.9294 11.0272C14.3355 12.7486 12.3064 14.3952 10.3 15.9C10.1222 16.0333 9.87773 16.0333 9.69995 15.9C7.69353 14.3952 5.66443 12.7485 4.0706 11.0272C2.48503 9.31478 1.27665 7.47217 1.00498 5.57072C0.733012 3.66716 1.33249 2.24776 2.36371 1.31643Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___like"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.5 3C0.5 2.72386 0.723858 2.5 1 2.5H15C15.2761 2.5 15.5 2.72386 15.5 3C15.5 3.27614 15.2761 3.5 15 3.5H1C0.723858 3.5 0.5 3.27614 0.5 3Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.4584 2.5H14.5059L13.6411 13.6926C13.5405 14.9947 12.4546 16 11.1486 16H4.84639C3.54299 16 2.45829 14.9986 2.35435 13.6994L1.4584 2.5ZM2.5416 3.5L3.35117 13.6196C3.41353 14.3992 4.06435 15 4.84639 15H11.1486C11.9322 15 12.5837 14.3968 12.6441 13.6155L13.4256 3.5H2.5416Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11 3.5H5V1.46875C5 0.657582 5.65758 0 6.46875 0H9.53125C10.3424 0 11 0.657582 11 1.46875V3.5ZM6.46875 1C6.20987 1 6 1.20987 6 1.46875V2.5H10V1.46875C10 1.20987 9.79013 1 9.53125 1H6.46875Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="main___sidebar__accordion_list_item_sum">
+                  <div class="main___sidebar__accordion_list_item_sum_1 first">
+                    <input
+                      id="sum1"
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_1_1"
+                      value="522 сом"
+                    />
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_sum_2">
+                    <input
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_2_first"
+                      value="783 сом"
+                      data-discount
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="main___sidebar__accordion_list_item addHeight">
+                <div class="accordion_list_item">
+                  <label class="main___sidebar__accordion_list_item_lbl addH">
+                    <input
+                      type="checkbox"
+                      class="main___sidebar__accordion_list_item_lbl_checkbox"
+                    />
+                    <span class="main___sidebar__accordion_top_lbl_fake"></span>
+                  </label>
+                  <img
+                    src="assets/phones.svg"
+                    alt=""
+                    class="main___sidebar__accordion_list_item_phones"
+                  />
+                  <div
+                    class="main___sidebar__accordion_list_item_descr addHeightDescr"
+                  >
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_name addName"
+                    >
+                      Силиконовый чехол картхолдер (отверстия) для карт,
+                      прозрачный кейс бампер на Apple iPhone XR, MobiSafe
+                    </div>
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_color"
+                    >
+                      <p
+                        class="main___sidebar__accordion_list_item_descr_color_1"
+                      >
+                        Цвет прозрачный
+                      </p>
+                    </div>
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_location"
+                    >
+                      Коледино WB
+                    </div>
+                    <div class="main___sidebar__accordion_list_item_descr_comp">
+                      <p
+                        class="main___sidebar__accordion_list_item_descr_comp_1 addWid"
+                      >
+                        ООО Мегапрофстиль
+                      </p>
+                      <img
+                        src="assets/info.svg"
+                        alt=""
+                        class="main___sidebar__accordion_list_item_descr_comp_2"
+                      />
+                      <img
+                        src="assets/i.svg"
+                        class="main___sidebar__accordion_list_item_descr_comp_2_1 addRight"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="main___sidebar__accordion_list_item_amount addHeightAmount"
+                >
+                  <div
+                    class="main___sidebar__accordion_list_item_amount_count cnt2"
+                    data-counter
+                  >
+                    <img
+                      src="assets/−.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_minus counter__button_minus"
+                    />
+                    <div
+                      class="main___sidebar__accordion_list_item_amount_count_number addCnt"
+                    >
+                      <input
+                        type="text"
+                        disabled
+                        class="main___sidebar__accordion_list_item_amount_count_number_1"
+                        value="1"
+                      />
+                    </div>
+                    <img
+                      src="assets/+.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_plus counter__button_plus"
+                    />
+                  </div>
+                  <div
+                    class="main___sidebar__accordion_list_item_amount_elem addMar"
+                  >
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___basket"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.03396 2.05857C2.26589 2.75224 1.76684 3.83284 1.99493 5.42928C2.22332 7.02783 3.26494 8.68522 4.80436 10.3478C6.25865 11.9184 8.10962 13.4437 9.99996 14.874C11.8903 13.4437 13.7413 11.9184 15.1956 10.3478C16.735 8.68521 17.7766 7.02783 18.005 5.4293C18.233 3.83285 17.734 2.75224 16.9659 2.05856C16.1766 1.34572 15.055 1 14 1C12.1319 1 11.0923 2.08479 10.5177 2.68443C10.4581 2.7466 10.4035 2.80356 10.3535 2.85355C10.1582 3.04882 9.84166 3.04882 9.6464 2.85355C9.59641 2.80356 9.54182 2.7466 9.48224 2.68443C8.90757 2.08479 7.86797 1 5.99995 1C4.94495 1 3.82325 1.34573 3.03396 2.05857ZM2.36371 1.31643C3.37369 0.404274 4.75202 0 5.99995 0C8.07123 0 9.34539 1.11257 9.99996 1.77862C10.6545 1.11257 11.9287 0 14 0C15.2479 0 16.6262 0.404275 17.6362 1.31644C18.6674 2.24776 19.2668 3.66715 18.9949 5.5707C18.7233 7.47217 17.5149 9.31479 15.9294 11.0272C14.3355 12.7486 12.3064 14.3952 10.3 15.9C10.1222 16.0333 9.87773 16.0333 9.69995 15.9C7.69353 14.3952 5.66443 12.7485 4.0706 11.0272C2.48503 9.31478 1.27665 7.47217 1.00498 5.57072C0.733012 3.66716 1.33249 2.24776 2.36371 1.31643Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___like"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.5 3C0.5 2.72386 0.723858 2.5 1 2.5H15C15.2761 2.5 15.5 2.72386 15.5 3C15.5 3.27614 15.2761 3.5 15 3.5H1C0.723858 3.5 0.5 3.27614 0.5 3Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.4584 2.5H14.5059L13.6411 13.6926C13.5405 14.9947 12.4546 16 11.1486 16H4.84639C3.54299 16 2.45829 14.9986 2.35435 13.6994L1.4584 2.5ZM2.5416 3.5L3.35117 13.6196C3.41353 14.3992 4.06435 15 4.84639 15H11.1486C11.9322 15 12.5837 14.3968 12.6441 13.6155L13.4256 3.5H2.5416Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11 3.5H5V1.46875C5 0.657582 5.65758 0 6.46875 0H9.53125C10.3424 0 11 0.657582 11 1.46875V3.5ZM6.46875 1C6.20987 1 6 1.20987 6 1.46875V2.5H10V1.46875C10 1.20987 9.79013 1 9.53125 1H6.46875Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="main___sidebar__accordion_list_item_sum">
+                  <div class="main___sidebar__accordion_list_item_sum_1">
+                    <input
+                      id="sum2"
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_1_1"
+                      value="354 сом"
+                    />
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_sum_2">
+                    <input
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_2_second"
+                      value="708 сом"
+                      data-discount
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="main___sidebar__accordion_list_item addHT">
+                <div class="accordion_list_item">
+                  <label class="main___sidebar__accordion_list_item_lbl">
+                    <input
+                      type="checkbox"
+                      class="main___sidebar__accordion_list_item_lbl_checkbox"
+                    />
+                    <span class="main___sidebar__accordion_top_lbl_fake"></span>
+                  </label>
+                  <img
+                    src="assets/pencils.svg"
+                    alt=""
+                    width="72px"
+                    height="96px"
+                    class="main___sidebar__accordion_list_item_pencils"
+                  />
+                  <div class="main___sidebar__accordion_list_item_descr addHei">
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_name addName"
+                    >
+                      Карандаши цветные Faber-Castell "Замок", набор 24 цвета,
+                      заточенные, шестигранные,Faber-Castell
+                    </div>
+                    <div
+                      class="main___sidebar__accordion_list_item_descr_location"
+                    >
+                      Коледино WB
+                    </div>
+                    <div class="main___sidebar__accordion_list_item_descr_comp">
+                      <p
+                        class="main___sidebar__accordion_list_item_descr_comp_1 addWid"
+                      >
+                        ООО Мегапрофстиль
+                      </p>
+                      <img
+                        src="assets/info.svg"
+                        alt=""
+                        class="main___sidebar__accordion_list_item_descr_comp_2"
+                      />
+                      <img
+                        src="assets/i.svg"
+                        class="main___sidebar__accordion_list_item_descr_comp_2_1 addRight"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="main___sidebar__accordion_list_item_amount addHeightAmount"
+                >
+                  <div
+                    class="main___sidebar__accordion_list_item_amount_count cnt3"
+                    data-counter
+                  >
+                    <img
+                      src="assets/−.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_minus counter__button_minus"
+                    />
+                    <div
+                      class="main___sidebar__accordion_list_item_amount_count_number"
+                    >
+                      <input
+                        type="text"
+                        disabled
+                        class="main___sidebar__accordion_list_item_amount_count_number_1"
+                        value="1"
+                      />
+                    </div>
+                    <img
+                      src="assets/+.svg"
+                      alt=""
+                      class="main___sidebar__accordion_list_item_amount_count_plus counter__button_plus"
+                    />
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_amount_resid">
+                    Осталось 2шт.
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_amount_elem">
+                    <svg
+                      width="20"
+                      height="16"
+                      viewBox="0 0 20 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___basket"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3.03396 2.05857C2.26589 2.75224 1.76684 3.83284 1.99493 5.42928C2.22332 7.02783 3.26494 8.68522 4.80436 10.3478C6.25865 11.9184 8.10962 13.4437 9.99996 14.874C11.8903 13.4437 13.7413 11.9184 15.1956 10.3478C16.735 8.68521 17.7766 7.02783 18.005 5.4293C18.233 3.83285 17.734 2.75224 16.9659 2.05856C16.1766 1.34572 15.055 1 14 1C12.1319 1 11.0923 2.08479 10.5177 2.68443C10.4581 2.7466 10.4035 2.80356 10.3535 2.85355C10.1582 3.04882 9.84166 3.04882 9.6464 2.85355C9.59641 2.80356 9.54182 2.7466 9.48224 2.68443C8.90757 2.08479 7.86797 1 5.99995 1C4.94495 1 3.82325 1.34573 3.03396 2.05857ZM2.36371 1.31643C3.37369 0.404274 4.75202 0 5.99995 0C8.07123 0 9.34539 1.11257 9.99996 1.77862C10.6545 1.11257 11.9287 0 14 0C15.2479 0 16.6262 0.404275 17.6362 1.31644C18.6674 2.24776 19.2668 3.66715 18.9949 5.5707C18.7233 7.47217 17.5149 9.31479 15.9294 11.0272C14.3355 12.7486 12.3064 14.3952 10.3 15.9C10.1222 16.0333 9.87773 16.0333 9.69995 15.9C7.69353 14.3952 5.66443 12.7485 4.0706 11.0272C2.48503 9.31478 1.27665 7.47217 1.00498 5.57072C0.733012 3.66716 1.33249 2.24776 2.36371 1.31643Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="accordion___like"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.5 3C0.5 2.72386 0.723858 2.5 1 2.5H15C15.2761 2.5 15.5 2.72386 15.5 3C15.5 3.27614 15.2761 3.5 15 3.5H1C0.723858 3.5 0.5 3.27614 0.5 3Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.4584 2.5H14.5059L13.6411 13.6926C13.5405 14.9947 12.4546 16 11.1486 16H4.84639C3.54299 16 2.45829 14.9986 2.35435 13.6994L1.4584 2.5ZM2.5416 3.5L3.35117 13.6196C3.41353 14.3992 4.06435 15 4.84639 15H11.1486C11.9322 15 12.5837 14.3968 12.6441 13.6155L13.4256 3.5H2.5416Z"
+                        fill="black"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11 3.5H5V1.46875C5 0.657582 5.65758 0 6.46875 0H9.53125C10.3424 0 11 0.657582 11 1.46875V3.5ZM6.46875 1C6.20987 1 6 1.20987 6 1.46875V2.5H10V1.46875C10 1.20987 9.79013 1 9.53125 1H6.46875Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="main___sidebar__accordion_list_item_sum">
+                  <div class="main___sidebar__accordion_list_item_sum_1">
+                    <input
+                      id="sum3"
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_1_1"
+                      value="100 сом"
+                    />
+                  </div>
+                  <div class="main___sidebar__accordion_list_item_sum_2">
+                    <input
+                      type="text"
+                      disabled
+                      class="main___sidebar__accordion_list_item_sum_2_third"
+                      value="125 сом"
+                      data-discount
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main___sidebar__absence">
+            <div class="main___sidebar__absence_top">
+              <div class="main___sidebar__absence_top_name">
+                Отсутствуют · 3 товара
+              </div>
+              <img
+                src="assets/galka.svg"
+                alt=""
+                class="main___sidebar__absensce_top_img"
+              />
+            </div>
+            <div class="main___sidebar__accordion_line"></div>
+            <div class="main___sidebar__absence_list">
+              <div class="main___sidebar__absence_list_item">
+                <div class="abs___list__item">
+                  <img
+                    src="assets/couple.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_img"
+                  />
+
+                  <div class="main___sidebar__absence_list_item_descr">
+                    <div class="main___sidebar__absence_list_item_descr_name">
+                      Футболка UZcotton мужская
+                    </div>
+                    <div class="main___sidebar__absence_list_item_descr_color">
+                      <p class="absence___item__color">Цвет: белый</p>
+                      <div class="absence___item__size">
+                        <p class="absence__size_name">Размер:</p>
+                        56
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main___sidebar__absence_list_item_icons">
+                  <img
+                    src="assets/basket.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_icons_basket"
+                  />
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 3C0.5 2.72386 0.723858 2.5 1 2.5H15C15.2761 2.5 15.5 2.72386 15.5 3C15.5 3.27614 15.2761 3.5 15 3.5H1C0.723858 3.5 0.5 3.27614 0.5 3Z"
+                      fill="black"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.4584 2.5H14.5059L13.6411 13.6926C13.5405 14.9947 12.4546 16 11.1486 16H4.84639C3.54299 16 2.45829 14.9986 2.35435 13.6994L1.4584 2.5ZM2.5416 3.5L3.35117 13.6196C3.41353 14.3992 4.06435 15 4.84639 15H11.1486C11.9322 15 12.5837 14.3968 12.6441 13.6155L13.4256 3.5H2.5416Z"
+                      fill="black"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11 3.5H5V1.46875C5 0.657582 5.65758 0 6.46875 0H9.53125C10.3424 0 11 0.657582 11 1.46875V3.5ZM6.46875 1C6.20987 1 6 1.20987 6 1.46875V2.5H10V1.46875C10 1.20987 9.79013 1 9.53125 1H6.46875Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="main___sidebar__absence_list_item">
+                <div class="abs___list__item">
+                  <img
+                    src="assets/greyPhones.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_phones"
+                  />
+                  <div class="main___sidebar__absence_list_item_descr">
+                    <div class="main___sidebar__absence_list_item_descr_name">
+                      Силиконовый чехол картхолдер (отверстия) для карт,
+                      прозрачный кейс бампер на Apple iPhone XR, MobiSafe
+                    </div>
+                    <div class="main___sidebar__absence_list_item_descr_color">
+                      <p>Цвет прозрачный</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="main___sidebar__absence_list_item_icons">
+                  <img
+                    src="assets/basket.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_icons_basket"
+                  />
+                  <img
+                    src="assets/like.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_icons_like"
+                  />
+                </div>
+              </div>
+              <div class="main___sidebar__absence_list_item">
+                <div class="abs___list__item">
+                  <img
+                    src="assets/greyPencils.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_pencils"
+                  />
+                  <div class="main___sidebar__absence_list_item_descr">
+                    <div class="main___sidebar__absence_list_item_descr_name">
+                      Карандаши цветные Faber-Castell "Замок", набор 24 цвета,
+                      заточенные, шестигранные, Faber-Castell
+                    </div>
+                  </div>
+                </div>
+                <div class="main___sidebar__absence_list_item_icons">
+                  <img
+                    src="assets/basket.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_icons_basket"
+                  />
+                  <img
+                    src="assets/like.svg"
+                    alt=""
+                    class="main___sidebar__absence_list_item_icons_like"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main___sidebar__delivery">
+            <div class="main___sidebar__delivery_main">
+              <div class="main___sidebar__delivery_main_top">
+                <p class="main___sidebar__delivery_main_top_name">
+                  Способ доставки
+                </p>
+                <p class="main___sidebar__delivery_main_top_change">Изменить</p>
+              </div>
+              <div class="main___sidebar__delivery_main_descr">
+                <div class="main___sidebar__delivery_main_descr_terms">
+                  <div class="main___sidebar__delivery_main_descr_terms_1">
+                    <p>Пункт выдачи</p>
+                    <p
+                      class="main___sidebar__delivery_main_descr_info_location_1"
+                    >
+                      Бишкек, улица Ахматбека Суюмбаева, 12/1
+                    </p>
+                    <div
+                      class="main___sidebar__delivery_main_descr_info_location_2"
+                    >
+                      <img src="assets/star.svg" alt="" />
+                      <p
+                        class="main___sidebar__delivery_main_descr_info_location_2_1"
+                      >
+                        4,99
+                      </p>
+                      <p
+                        class="main___sidebar__delivery_main_descr_info_location_2_2"
+                      >
+                        Ежедневно с 10 до 21
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main___sidebar__delivery_main_descr_terms_2">
+                    Стоимость доставки
+                    <div class="main___sidebar__delivery_main_descr_info_sum">
+                      Бесплатно
+                    </div>
+                  </div>
+                  <div class="main___sidebar__delivery_main_descr_terms_3">
+                    5—6 февраля
+                    <div class="main___sidebar__delivery_main_descr_info_date1">
+                      <img
+                        src="assets/couple.svg"
+                        alt=""
+                        width="40px"
+                        height="56px"
+                      />
+                      <img
+                        src="assets/phones.svg"
+                        alt=""
+                        width="40px"
+                        height="56px"
+                      />
+                      <img
+                        src="assets/pencils.svg"
+                        alt=""
+                        width="40px"
+                        height="56px"
+                      />
+                    </div>
+                  </div>
+                  <div class="main___sidebar__delivery_main_descr_terms_4">
+                    7—8 февраля
+                    <div class="main___sidebar__delivery_main_descr_info_date2">
+                      <img
+                        src="assets/phones.svg"
+                        alt=""
+                        width="40px"
+                        height="56px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main___sidebar__delivery_footer">
+              <img src="assets/priceShipping.svg" alt="" />
+              <div class="main___sidebar__delivery_footer_1">
+                Обратная доставка товаров на склад <br />при отказе —
+                <span class="main___sidebar__delivery_footer_2">бесплатно</span>
+              </div>
+            </div>
+          </div>
+          <div class="main___sidebar__payment">
+            <div class="main___sidebar__payment_top">
+              <p class="main___sidebar__payment_top_1">Способ оплаты</p>
+              <p class="main___sidebar__payment_top_2">Изменить</p>
+            </div>
+            <div class="main___sidebar__payment_main">
+              <img src="assets/paymentsys.svg" alt="" />
+              <div class="main___sidebar__payment_main_1">
+                1234 56•• •••• 1234
+              </div>
+              <div class="main___sidebar__payment_main_2">01/30</div>
+            </div>
+            <div class="main___sidebar__payment_footer">
+              Спишем оплату с карты при получении
+            </div>
+          </div>
+          <div class="main___sidebar__recepient">
+            <div class="main___sidebar__recepient_name">Получатель</div>
+            <form class="main___sidebar__recepient_form" id="form" name="form">
+              <div class="main___sidebar__recepient_form_top">
+                <label
+                  class="main___sidebar__recepient_form_part_lbl_1 addWforTop"
+                >
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    value="Имя"
+                    class="main___sidebar__recepient_form_name"
+                    data-reg="^[А-ЯЁ][а-яё]*$"
+                    data-inp
+                  />
+                </label>
+                <label
+                  for=""
+                  class="main___sidebar__recepient_form_part_lbl_2 addWforTop"
+                >
+                  <input
+                    type="text"
+                    value="Фамилия"
+                    class="main___sidebar__recepient_form_surname"
+                    data-reg="^[А-ЯЁ][а-яё]*$"
+                    data-inp
+                  />
+                </label>
+              </div>
+              <div class="main___sidebar__recepient_form_footer">
+                <label
+                  class="main___sidebar__recepient_form_footer_lbl_3 addWforFooter"
+                >
+                  <input
+                    type="email"
+                    value="Почта"
+                    class="main___sidebar__recepient_form_email"
+                    data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                    data-inp
+                  />
+                </label>
+                <label
+                  class="main___sidebar__recepient_form_footer_lbl_4 addWforFooter"
+                >
+                  <input
+                    id="phone"
+                    type="tel"
+                    value="Телефон"
+                    class="main___sidebar__recepient_form_phone"
+                    data-reg="^((\+7|7|8)+([0-9]){10})$"
+                    data-inp
+                  />
+                </label>
+                <label
+                  class="main___sidebar__recepient_form_footer_lbl_5 addWforFooter"
+                >
+                  <input
+                    type="text"
+                    value="ИНН"
+                    class="main___sidebar__recepient_form_inn"
+                    data-reg="^[\d+]{10,12}$"
+                    data-inp
+                  />
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="main___window">
+          <div class="menu">
+            <div class="menu___info">
+              <div class="menu___info__top">
+                <div class="menu___info__top_sum">
+                  <p>Итого</p>
+                  <div class="total">
+                    <input type="text" value="976 сом" id="total" />
+                  </div>
+                </div>
+                <div class="menu___info__top_details">
+                  <div class="details_amount">
+                    <p>Итого</p>
+                    <div class="totalDiscount">
+                      <input
+                        type="text"
+                        disabled
+                        value="1616 сом"
+                        id="discount"
+                      />
+                    </div>
+                  </div>
+                  <div class="details_discount">
+                    <p>Скидка</p>
+                    <div class="diff">
+                      <input type="text" disabled value="-640 сом" id="diff" />
+                    </div>
+                  </div>
+                  <div class="details_delivery">
+                    <p>Доставка</p>
+                    <p>Бесплатно</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu___info__main">
+                <div class="menu___info__main_location">
+                  <div class="location___change">
+                    <p class="loaction___delivery">Доставка в пункт выдачи</p>
+                    <img src="assets/pen.svg" alt="" />
+                  </div>
+                  <p class="location_name">
+                    Бишкек, улица Ахматбека Суюмбаева, 12/1
+                  </p>
+                  <p>5–8 фев</p>
+                </div>
+                <div class="menu___info__main_refusal">
+                  <img src="assets/priceShipping.svg" alt="" />
+                  <div class="main___refusal__name">
+                    Обратная доставка товаров на склад при отказе —
+                  </div>
+                </div>
+              </div>
+              <div class="menu___info__bottom">
+                <div class="info___bottom__card">
+                  <div class="bottom__card_name">
+                    <p>Оплата картой</p>
+                    <img src="assets/pen.svg" alt="" />
+                  </div>
+                  <div class="bottom__card_data">
+                    <img src="assets/paymentsys.svg" alt="" />
+                    <div class="card__data_number">1234 12•• •••• 1234</div>
+                  </div>
+                </div>
+                <div class="info___bottom__write-off">
+                  <div class="bottom__write-off_now">
+                    <label for=""><input type="checkbox" /></label>
+                    <p>Списать оплату сразу</p>
+                  </div>
+                  <div class="bottom__write-off_then">
+                    Спишем оплату с карты при получении
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu___order">
+              <button class="menu___order__button">Заказать</button>
+              <div class="menu___order__agreement">
+                <img src="assets/checkMark.svg" alt="" />
+                <p>
+                  Соглашаюсь с правилами пользования торговой площадкой
+                  и возврата
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="containerFooter">
+      <footer class="footer">© 2022 ООО «Товары и точка»</footer>
+    </div>
+    <div class="window">
+      <div class="window___center">
+        <div class="window___center__name">
+          <p>Способ оплаты</p>
+          <img
+            src="assets/search-close.svg"
+            alt=""
+            class="cardData___paymentsys"
+          />
+        </div>
+        <div class="window___center__main">
+          <label for="r1" class="wrapper">
+            <input type="radio" id="r1" name="r-group" class="radio" />
+            <span class="checkmark"></span>
+            <span class="cardData"
+              ><img src="assets/paymentsys.svg" alt="" />
+              <p class="cardData___number">1234 56•• •••• 1234</p></span
+            >
+          </label>
+          <label for="r2" class="wrapper">
+            <input type="radio" id="r2" name="r-group" class="radio" />
+            <span class="checkmark"></span>
+            <span class="cardData"
+              ><img src="assets/visa.svg" alt="" />
+              <p class="cardData___number">1234 56•• •••• 1234</p></span
+            >
+          </label>
+          <label for="r3" class="wrapper">
+            <input type="radio" id="r3" name="r-group" class="radio" />
+            <span class="checkmark"></span>
+            <span class="cardData">
+              <img src="assets/mastercard.svg" alt="" class="mastercard" />
+              <p class="cardData___number">1234 56•• •••• 1234</p></span
+            >
+          </label>
+          <label for="r4" class="wrapper">
+            <input type="radio" id="r4" name="r-group" class="radio" />
+            <span class="checkmark"></span>
+            <span class="cardData"
+              ><img src="assets/master.svg" alt="" />
+              <p class="cardData___number">1234 56•• •••• 1234</p></span
+            >
+          </label>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="windowDelivery">
+      <div class="windowDelivery___center">
+        <div class="window___center__name">
+          <p>Способ оплаты</p>
+          <img
+            src="assets/search-close.svg"
+            alt=""
+            class="cardData___paymentsys"
+          />
+        </div>
+        <div class="windowDelivery___center__method">
+          <div class="windowDelivery___method_point">В пункте выдачи</div>
+          <div class="windowDelivery___method_courier">Курьером</div>
+        </div>
+        <div class="windowDelivery___addresses">
+          
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
